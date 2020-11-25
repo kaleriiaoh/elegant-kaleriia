@@ -40,6 +40,7 @@ header{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin-bottom: 80px;
 }
 
 .menu{
@@ -66,35 +67,39 @@ h1 span{
     font-display: swap;
 }
 
-.text-world {
+.text-block {
     padding: 83px 15px 92px;
     text-align: center;
     margin-bottom: 163px;
 }
 
-h2{
+
+.subtitle{
     color: #d4af37;
     font-size: 13px;
     text-transform: uppercase;
+    text-align: center;
     margin-bottom: 22px;
 }
 
-h3{
+.title{
     color: #021725;
     font-size: 44px;
+    text-align: center;
     margin-bottom: 55px;
 }
 
-p{
-    width: 50%;
+.text-width{
+    max-width: 760px;
     margin: auto;
     font-size: 18px;
     color: #021725;
     display: block;
     margin-bottom: 46px;
+    text-align: center;
 }
 
-.text-world a {
+.more {
     color: #021725;
     text-decoration: none;
     font-size: 14px;
@@ -102,22 +107,97 @@ p{
     border: solid 1px #000000;
 }
 
-.pictures-block {
-    padding: 15px;
+.link-center{
     text-align: center;
+    margin-bottom: 162px;
 }
 
-.pictures-block .pictures {
+.pictures {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 163px;
 }
 
-.pictures-block .pictures img {
+.pictures img {
     width: 25%;
+    padding: 0 1.5px 3px;
 }
 
-h4{
-    font-size: 21px;
-    color: #021725;
+.people{
+    max-width: 750px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 163px;
 }
+
+.people-card{
+    background-color: #f9f9f9;
+    width:33%;
+    text-align: left;
+}
+
+.people-card h4{
+    padding: 20px 18px 0;
+    text-transform: uppercase;
+}
+
+.people-card h5{
+    color: #021725;
+    font-size: 21px;
+    padding: 22px 18px 0;
+}
+
+.people-card p{
+    font-size: 13px;
+    color: #021725;
+    width: 100%;
+    padding: 37px 18px 50px;
+}
+
+.post{
+    background-color: #f9f9f9;
+    max-width: 770px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 85px;
+}
+
+
+.text-post {
+    text-align: left;
+    padding: 40px;
+}
+
+.subtitle-card {
+    color: #d4af37;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.data {
+    font-size: 13px;
+    color: #505d68;
+    display: block;
+    margin-bottom: 22px;
+
+}
+.text-post h5{
+    color: #505d68;
+    font-size: 30px;
+    margin-bottom: 34px;
+}
+.text-post p{
+    font-size: 16px;
+    color: #505d68;
+    margin-bottom: 58px;
+}
+
+.link-read {
+    color: #021725;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 18px 46px;
+    border: solid 1px #000000;
+}
+
