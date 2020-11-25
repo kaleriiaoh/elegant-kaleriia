@@ -51,6 +51,11 @@ header{
     position: absolute;
 }
 
+.menu p{
+    color: white;
+    font-size: 16px;
+}
+
 h1{
     color: #ffffff;
     font-size: 80px;
