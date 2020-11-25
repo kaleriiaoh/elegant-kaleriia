@@ -204,9 +204,66 @@ h1 span{
     max-width: 770px;
     max-height: 300px;
     margin: 0 auto 52px;
-
 }
 iframe {
     width: 100%;
     height: 100%;
+}
+
+.contacts {
+    background-color: #f9f9f9;
+    max-width: 770px;
+    margin:0 auto 82px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts-style {
+    padding: 52px 15px;
+    width: 50%;
+}
+
+.contacts-style h6{
+    color: #505d68;
+    font-size: 13px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.contacts-style span {
+    color: #505d68;
+    font-size: 19px;
+}
+
+.contacts a{
+    display: block;
+    color: #505d68;
+    font-size: 19px;
+    text-decoration: none;
+}
+.margin-link {
+    margin-bottom: 18px;
+}
+
+footer{
+    background-color: #eeeeee;
+}
+
+.designed-email {
+    max-width: 770px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 35px;
+}
+
+.designed-email span {
+    font-size: 16px;
+    color: #505d68;
+}
+.designed-email a{
+    color: #505d68;
+    font-size: 19px;
+    text-decoration: none;
 }
