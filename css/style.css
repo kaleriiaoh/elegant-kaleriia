@@ -30,7 +30,7 @@
     box-sizing: border-box;
 }
 
-header{
+header {
     background-image: url('../images/bg-header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,6 +41,15 @@ header{
     align-items: center;
     height: 100vh;
     margin-bottom: 80px;
+}
+
+.about-header {
+    background-image: url('../images/bg-header-about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-bottom: 164px;
+
 }
 
 .menu{
@@ -272,4 +281,59 @@ footer{
     color: #505d68;
     font-size: 19px;
     text-decoration: none;
+}
+
+.text-about{
+    max-width: 769px;
+    font-size: 18px;
+    color: #021725;
+    margin: 0 auto 158px;
+    text-align: center;
+}
+
+.about-services-text {
+    padding: 48px 41px;
+}
+
+.about-services-text h1{
+    font-size: 45px;
+    color: #505d68;
+    margin-bottom: 92px;
+}
+
+.about-services{
+    display: flex;
+    background-color: #eeeeee;
+}
+
+.about-services-photo img{
+    width: 100%;
+}
+
+.about-services-desc{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #505d68;
+}
+
+.about-services-desc p{
+    max-width: 225px;
+    margin-right: 100px;
+}
+
+.about-services-photo {
+    max-width: 640px;
+    max-height: 450px;
+}
+
+.about-services-desc ul{
+    list-style: none;
+}
+
+.about-services-desc ul li::before {
+    content: "-";
+    color: #505d68;
+    display: inline-block;
+    margin-right: 11px;
 }
