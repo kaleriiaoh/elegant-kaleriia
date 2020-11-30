@@ -1,4 +1,4 @@
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 767px) {
     .about-header{
         background-image: url('../images/bg-max-750.jpg');
         background-size: cover;
@@ -48,5 +48,49 @@
     }
     .designed-email a{
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about-header{
+        margin-bottom: 75px;
+    }
+    .menu{
+        padding: 16px 16px;
+    }
+    .text-about{
+        margin-bottom: 75px;
+    }
+    p {
+        padding: 0 15px;
+    }
+    .about-services-desc {
+        font-size: 16px;
+    }
+    .about-services-text {
+        padding: 20px 20px;
+    }
+    .about-services-text h1{
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+    .about-services-desc p{
+        padding: 0;
+        width: 100%;
+        margin-right: 0;
+        max-width: none;
+        margin-bottom: 40px;
+    }
+    .designed-email {
+        display: flex;
+        flex-direction: column;
+        padding: 25px 13px;
+    }
+    .designed-email span {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .designed-email a{
+        font-size: 16px;
     }
 }

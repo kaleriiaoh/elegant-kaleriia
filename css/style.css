@@ -336,3 +336,26 @@ footer{
     display: inline-block;
     margin-right: 11px;
 }
+
+.blog-header {
+    background-image: url('../images/bg-blog.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 78px;
+}
+.contact-blog-wrapper{
+    padding: 64px 70px 64px;
+    background-color: #f9f9f9;
+}
+.content-blog {
+    width: 75%;
+    padding: 32px 14px;
+    color: #ffffff;
+}
+
+
+
+.sidebar-blog{
+    width: 25%;
+}
+
