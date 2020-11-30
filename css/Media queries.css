@@ -3,6 +3,7 @@
         background-image: url('../images/bg-max-750.jpg');
         background-size: cover;
         background-repeat: no-repeat;
+        height: 100vh;
     }
     p {
         padding: 0 30px;
@@ -14,7 +15,6 @@
     }
     .about-services-photo{
         max-width: 750px;
-        height: 100vh;
     }
     .about-services-photo img{
         width: 100%;
@@ -44,5 +44,9 @@
     }
     .designed-email span {
         margin-bottom: 28px;
+        font-size: 30px;
+    }
+    .designed-email a{
+        font-size: 30px;
     }
 }
