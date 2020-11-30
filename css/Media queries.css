@@ -1,7 +1,9 @@
-@media screen and (max-width: 500px) {
-   .about-header {
-
-   }
+@media screen and (max-width: 750px) {
+    .about-header{
+        background-image: url('../images/bg-max-750.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     p {
         padding: 0 30px;
     }
@@ -10,12 +12,24 @@
         flex-direction: column;
         background-color: #ffffff;
     }
+    .about-services-photo{
+        max-width: 750px;
+        height: 100vh;
+    }
+    .about-services-photo img{
+        width: 100%;
+    }
+
     .about-services-desc {
         display: flex;
         flex-direction: column;
+        font-size: 31px;
     }
     .about-services-text {
         padding: 88px 76px;
+    }
+    h1{
+        font-size: 85px;
     }
     .about-services-desc p{
         padding: 0 0 168px;

@@ -273,12 +273,12 @@ footer{
 }
 
 .designed-email span {
-    font-size: 16px;
+    font-size: 30px;
     color: #505d68;
 }
 .designed-email a{
     color: #505d68;
-    font-size: 19px;
+    font-size: 30px;
     text-decoration: none;
 }
 
@@ -302,7 +302,7 @@ footer{
 
 .about-services{
     display: flex;
-    background-color: #eeeeee;
+    background-color: #f9f9f9;
 }
 
 .about-services-photo img{
