@@ -1,0 +1,34 @@
+@media screen and (max-width: 500px) {
+   .about-header {
+
+   }
+    p {
+        padding: 0 30px;
+    }
+    .about-services {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+    }
+    .about-services-desc {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-services-text {
+        padding: 88px 76px;
+    }
+    .about-services-desc p{
+        padding: 0 0 168px;
+        width: 100%;
+        margin-right: 0;
+        max-width: none;
+    }
+    .designed-email {
+        display: flex;
+        flex-direction: column;
+        padding: 80px 13px 63px;
+    }
+    .designed-email span {
+        margin-bottom: 28px;
+    }
+}
