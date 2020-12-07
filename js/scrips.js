@@ -11,8 +11,31 @@ $(document).ready(function(){
             },
 
             1000:{
-                items:3
+                items:1
             }
         }
     });
 });
+$( function() {
+
+    $( "#dialog" ).dialog({
+        autoOpen: false,
+        width: 750,
+        maxWidth: 750,
+        draggable: false,
+        modal: true,
+        show: {
+            effect: "blind",
+            duration: 1000
+        },
+        hide: {
+            effect: "explode",
+            duration: 1000
+        }
+    });
+
+    $( "#opener" ).on( "click", function() {
+        $( "#dialog" ).dialog( "open" );
+    });
+} );
+
