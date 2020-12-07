@@ -400,7 +400,7 @@ footer{
     outline: none;
 }
 
-.owl-dots .owl-dot span{
+.owl-dots .owl-dot span {
     display: block;
     width: 10px;
     height: 10px;
@@ -409,16 +409,16 @@ footer{
     border-radius: 5px;
 }
 
-.owl-dots .owl-dot.active span{
+.owl-dots .owl-dot.active span {
     background-color: black;
     outline: none;
 }
 
-.sidebar-blog{
+.sidebar-blog {
     width: 25%;
 }
 
-.ui-widget-header{
+.ui-widget-header {
     border: none;
     background: #000000;
     color: #FFFFFF;
@@ -427,10 +427,10 @@ footer{
     font-size: 24px;
     padding: 40px;
 }
-.ui-button{
+.ui-button {
     display: none;
 }
-.ui-dialog{
+.ui-dialog {
     max-width: 750px;
     padding: 0;
 }
